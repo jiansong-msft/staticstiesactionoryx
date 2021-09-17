@@ -1,4 +1,4 @@
-FROM staticsite1:staticsite2
+FROM staticsite2:staticsite2
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
