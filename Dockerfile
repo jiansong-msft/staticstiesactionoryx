@@ -1,4 +1,4 @@
-FROM acthyy/staticsite:staticsite
+FROM acthyy/staticsite:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
